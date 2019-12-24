@@ -1,0 +1,282 @@
+/*
+header grey color: #363636;
+logo title color: #dadada;
+selected red color: #da4453;
+white color: #f5f7fa;
+
+text color:color: #6b6b6b;
+
+body background color: f2f2f2;
+*/
+
+body {
+    color: #6b6b6b;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sans,sans-serif;
+    font-family: roboto slab,serif;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #da4453;
+}
+
+.header {
+    background-color: #363636;
+}
+
+header {
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 900px;
+    color: #f5f7fa;
+}
+
+header ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f5f7fa;
+}
+
+header ul li a.selected {
+    color: #da4453;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 900px;
+    margin-top: 20px;
+}
+
+main section {
+    width: 550px;
+}
+
+main section article {
+    background-color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+main section article img {
+    width: 100%;
+}
+
+.action {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action button, form button {
+    background-color: #da4453;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 25px 10px 10px;
+    border-radius: 5px;
+    max-width: 100px;
+    text-transform: uppercase;
+    border: none;
+}
+
+article p {
+    padding: 10px 25px 25px 25px;
+}
+
+.short-info {
+    padding-left: 25px;
+}
+
+article h2 {
+    padding: 0 25px 0 25px;
+    color: #444;
+    font-size: 28px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #363636;
+}
+
+main aside {
+    background-color: #fff;
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.logo {
+    color: #dadada;
+}
+
+footer {
+    background-color: #363636;
+    color: #999;
+}
+
+.footer-columns {
+    width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer-columns > div {
+    width: 300px;
+    padding-right: 20px;
+}
+
+.footer-columns h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999;
+}
+
+.categories h3, .popular-posts h3, .tags h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999;
+}
+
+aside .categories h3, aside .popular-posts h3, aside .tags h3 {
+    color: #666;
+}
+
+aside .categories ul li {
+    color: #999;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.categories ul li:hover {
+    color: #da4453;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.categories ul li {
+    border-bottom: 1px solid #6b6b6b;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.categories a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.copyright {
+    margin-top: 20px;
+    background-color: #202020;
+    padding: 20px;
+    text-align: center;
+}
+
+.popular-posts, .categories {
+    margin-bottom: 30px;
+}
+
+.article-preview {
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.article-preview h4 {
+    color: #dadada;
+    margin: 0;
+    font-size: 14px;
+}
+
+.article-preview img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+aside .article-preview h4 {
+    color: #da4453;
+}
+
+.tags div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags div span {
+    background-color: #dadada;
+    padding: 0 5px;
+    margin: 3px;
+    border-radius: 3px;
+    color: #f2f2f2;
+}
+
+.tags div span:hover {
+    background-color: #da4453;
+    cursor: pointer;
+}
+
+.about {
+    background-color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.about h2 {
+    font-size: 30px;
+    color: #444;
+}
+
+.about form {
+    display: flex;
+    flex-direction: column;
+}
+
+.about input {
+    height: 25px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.about textarea {
+    border: 1px solid lightgray;
+}
